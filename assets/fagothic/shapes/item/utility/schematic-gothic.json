@@ -9,7 +9,7 @@
 	},
 	"textures": {
 		"map-blank": "game:item/utility/map-blank",
-		"schematic": "utility/schematic-{type}"
+		"schematic": "utility/schematic-gothic"
 	},
 	"elements": [
 		{

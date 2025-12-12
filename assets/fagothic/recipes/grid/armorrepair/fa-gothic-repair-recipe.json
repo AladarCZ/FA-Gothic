@@ -5,21 +5,25 @@
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-head-sallet-steel-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white",
-						"none"] },
-			"P": { type: "item", code: "game:metalplate-steel" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -27,29 +31,34 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic steel plate sallet repair",
-		output: { type: "item", code: "fa-gothic-head-sallet-steel-{color}"  }
+		output: { type: "item", code: "fa-gothic-head-sallet-steel-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-head-sallet-meteoriciron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white",
-						"none"] },
-			"P": { type: "item", code: "game:metalplate-meteoriciron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -57,7 +66,8 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic meteoric iron plate sallet repair",
-		output: { type: "item", code: "fa-gothic-head-sallet-meteoriciron-{color}"  }
+		output: { type: "item", code: "fa-gothic-head-sallet-meteoriciron-{color}"
+		}
 	},
 	{
 		ingredientPattern: "BL,P_",
@@ -65,20 +75,24 @@
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-head-sallet-iron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black",
-						"none"] },
-			"P": { type: "item", code: "game:metalplate-iron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -86,32 +100,137 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic iron plate sallet repair",
-		output: { type: "item", code: "fa-gothic-head-sallet-iron-{color}"  }
+		output: { type: "item", code: "fa-gothic-head-sallet-iron-{color}"
+		}
 	},
-
-
-
-
-		{
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-gothic-head-salletwreath-steel-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "gothic steel plate sallet repair",
+		output: { type: "item", code: "fa-gothic-head-salletwreath-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-gothic-head-salletwreath-meteoriciron-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "gothic meteoric iron plate sallet repair",
+		output: { type: "item", code: "fa-gothic-head-salletwreath-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-gothic-head-salletwreath-iron-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "gothic iron plate sallet repair",
+		output: { type: "item", code: "fa-gothic-head-salletwreath-iron-{color}"
+		}
+	},
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-body-steel-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-steel" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -119,28 +238,33 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic steel plate body repair",
-		output: { type: "item", code: "fa-gothic-body-steel-{color}"  }
+		output: { type: "item", code: "fa-gothic-body-steel-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-body-meteoriciron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-meteoriciron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -148,28 +272,33 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic meteoric iron plate body repair",
-		output: { type: "item", code: "fa-gothic-body-meteoriciron-{color}"  }
+		output: { type: "item", code: "fa-gothic-body-meteoriciron-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-body-iron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-iron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -177,28 +306,33 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic iron plate body repair",
-		output: { type: "item", code: "fa-gothic-body-iron-{color}"  }
+		output: { type: "item", code: "fa-gothic-body-iron-{color}"
+		}
 	},
-			{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-legs-steel-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-steel" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -206,28 +340,33 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic steel plate legs repair",
-		output: { type: "item", code: "fa-gothic-legs-steel-{color}"  }
+		output: { type: "item", code: "fa-gothic-legs-steel-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-legs-meteoriciron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-meteoriciron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -235,28 +374,33 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic meteoric iron plate legs repair",
-		output: { type: "item", code: "fa-gothic-legs-meteoriciron-{color}"  }
+		output: { type: "item", code: "fa-gothic-legs-meteoriciron-{color}"
+		}
 	},
-		{
+	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
 			"B": { type: "item", code: "fa-gothic-legs-iron-*",  
 						name: "color", allowedVariants: [
-						"plain",
-						"blue", 
-						"red", 
-						"yellow", 
-						"green", 
-						"purple", 
-						"pink", 
-						"orange", 
-						"brown", 
-						"gray", 
-						"black", 
-						"white"] },
-			"P": { type: "item", code: "game:metalplate-iron" },
-			"L": { type: "item", code: "game:leather-normal-plain" }
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalplate-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
 		},
 		width: 2,
 		height: 2,
@@ -264,6 +408,7 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "gothic iron plate legs repair",
-		output: { type: "item", code: "fa-gothic-legs-iron-{color}"  }
+		output: { type: "item", code: "fa-gothic-legs-iron-{color}"
+		}
 	},
 ]

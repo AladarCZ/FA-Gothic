@@ -1,0 +1,338 @@
+[
+	{
+		ingredientPattern: "_B_,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 4
+			},
+			"D": { type: "item", code: "game:metalplate-silver"
+			},
+			"E": { type: "item", code: "game:armor-head-plate-steel"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "fa-gothic-schematic"
+			},
+			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "gothic plate sallet free",
+		output: { type: "item", code: "fa-gothic-head-sallet-steel-none"
+		}
+	},
+	{
+		ingredientPattern: "_B_,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metalnailsandstrips-silver", quantity: 4
+			},
+			"D": { type: "item", code: "game:metalplate-silver"
+			},
+			"E": { type: "item", code: "game:armor-head-plate-meteoriciron"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "fa-gothic-schematic"
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "gothic plate sallet",
+		output: { type: "item", code: "fa-gothic-head-sallet-meteoriciron-none"
+		}
+	},
+	{
+		ingredientPattern: "_B_,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metallamellae-lead", quantity: 4
+			},
+			"D": { type: "item", code: "game:metalplate-zinc"
+			},
+			"E": { type: "item", code: "game:armor-head-plate-iron"
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "fa-gothic-schematic"
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "gothic plate sallet",
+		output: { type: "item", code: "fa-gothic-head-sallet-iron-none"
+		}
+	},
+	{
+		ingredientPattern: "AAA,CEC,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-steel-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic plate sallet",
+		output: { type: "item", code: "fa-gothic-head-sallet-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AAA,CEC,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-meteoriciron-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic plate sallet",
+		output: { type: "item", code: "fa-gothic-head-sallet-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AAA,CEC,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-iron-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothi plate sallet",
+		output: { type: "item", code: "fa-gothic-head-sallet-iron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ACA,CEC,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"C": { type: "item", code: "game:cloth-plain", quantity: 3
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-steel-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic steel plate sallet",
+		output: { type: "item", code: "fa-gothic-head-salletwreath-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ACA,CEC,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-meteoriciron-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic steel plate sallet",
+		output: { type: "item", code: "fa-gothic-head-salletwreath-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "ACA,CEC,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"C": { type: "item", code: "game:feather", quantity: 9
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-iron-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic steel plate sallet",
+		output: { type: "item", code: "fa-gothic-head-salletwreath-iron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-gothic-head-sallet*-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "gothic steel plate sallet deplume",
+		output: { type: "item", code: "fa-gothic-head-sallet-steel-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-gothic-head-sallet*-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "gothic meteoriciron plate sallet deplume",
+		output: { type: "item", code: "fa-gothic-head-sallet-meteoriciron-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-gothic-head-sallet*-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "gothic meteoriciron plate sallet deplume",
+		output: { type: "item", code: "fa-gothic-head-sallet-iron-none"
+		}
+	},
+]
