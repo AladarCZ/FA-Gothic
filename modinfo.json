@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "fagothic",
+  "name": "Forgotten Armory Gothic",
+  "authors": [
+    "AladarCZ"
+  ],
+  "description": "Mod adding multiple current armor variations in Gothic plate style",
+  "version": "1.0.0"
+}
