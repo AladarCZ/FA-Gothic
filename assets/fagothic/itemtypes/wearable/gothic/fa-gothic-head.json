@@ -3,12 +3,13 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "style",  "states": ["sallet", "salletwreath"]},
+		{ "code": "style",  "states": ["sallet", "salletwreath", "salletwing"]},
 		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
 		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
 	],
 	"skipVariants": [
-		"fa-gothic-head-salletwreath-*-none"
+		"*wreath*none",
+		"*wing*none"
 	],
 	"allowedVariants": [
 		"*"
@@ -16,7 +17,8 @@
 	"shapeByType": 
 	{
 		"fa-gothic-head-sallet-*": { "base": "entity/armor/gothic/gothicsallethead" },
-		"fa-gothic-head-salletwreath-*": { "base": "entity/armor/gothic/gothicsalletwreathhead" }
+		"fa-gothic-head-salletwreath-*": { "base": "entity/armor/gothic/gothicsalletwreathhead" },
+		"fa-gothic-head-salletwing-*": { "base": "entity/armor/gothic/gothicsalletwingedhead" }
 	},
 	"texturesByType": {
 		"fa-gothic-head-sallet*-*": { 

@@ -279,6 +279,105 @@
 		}
 	},
 	{
+		ingredientPattern: "AAA,_E_,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-steel-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic steel plate sallet",
+		output: { type: "item", code: "fa-gothic-head-salletwing-steel-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AAA,_E_,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-meteoriciron-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic steel plate sallet",
+		output: { type: "item", code: "fa-gothic-head-salletwing-meteoriciron-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AAA,_E_,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-gothic-head-sallet-iron-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "gothic steel plate sallet",
+		output: { type: "item", code: "fa-gothic-head-salletwing-iron-{color}"
+		}
+	},
+	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {

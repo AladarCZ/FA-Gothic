@@ -1,0 +1,18 @@
+[
+	{
+		"file": "fagothic:itemtypes/wearable/gothic/fa-gothic-body",
+		"op": "replace",
+		"path": "/shapeByType",
+		"value": {
+		"*": { "base": "fagothic:entity/armor/gothic_co/gothicbody_co" },
+				}
+	},
+	{
+		"file": "fagothic:itemtypes/wearable/gothic/fa-gothic-legs",
+		"op": "replace",
+		"path": "/shapeByType",
+		"value": {
+		"*": { "base": "fagothic:entity/armor/gothic_co/gothiclegs_co" },
+				}
+	}
+]
