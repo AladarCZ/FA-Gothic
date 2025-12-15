@@ -23,7 +23,7 @@
 			},
 			"C": { type: "item", code: "game:metalplate-silver", quantity: 2
 			},
-			"D": { type: "item", code: "fa-gothic-schematic"
+			"D": { type: "item", code: "fa-gothic-schematic", returnedStack: { "type": "item", "code": "fa-gothic-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 2
 			},
@@ -62,7 +62,7 @@
 			},
 			"C": { type: "item", code: "game:metalplate-silver", quantity: 2
 			},
-			"D": { type: "item", code: "fa-gothic-schematic"
+			"D": { type: "item", code: "fa-gothic-schematic", returnedStack: { "type": "item", "code": "fa-gothic-schematic" }
 			},
 			"E": { type: "item", code: "game:metalnailsandstrips-silver", quantity: 2
 			},
@@ -101,7 +101,7 @@
 			},
 			"C": { type: "item", code: "game:metalplate-zinc", quantity: 2
 			},
-			"D": { type: "item", code: "fa-gothic-schematic"
+			"D": { type: "item", code: "fa-gothic-schematic", returnedStack: { "type": "item", "code": "fa-gothic-schematic" }
 			},
 			"E": { type: "item", code: "game:metallamellae-lead", quantity: 2
 			},

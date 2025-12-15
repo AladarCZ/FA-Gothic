@@ -19,7 +19,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-gothic-schematic"
+			"B": { type: "item", code: "fa-gothic-schematic", returnedStack: { "type": "item", "code": "fa-gothic-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-silver", quantity: 6
 			},
@@ -58,7 +58,7 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-gothic-schematic"
+			"B": { type: "item", code: "fa-gothic-schematic", returnedStack: { "type": "item", "code": "fa-gothic-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-silver", quantity: 6
 			},
@@ -97,13 +97,13 @@
 					"white"
 				], quantity: 2
 			},
-			"B": { type: "item", code: "fa-gothic-schematic"
+			"B": { type: "item", code: "fa-gothic-schematic", returnedStack: { "type": "item", "code": "fa-gothic-schematic" }
 			},
 			"D": { type: "item", code: "game:metalplate-zinc", quantity: 6
 			},
 			"E": { type: "item", code: "game:armor-body-plate-iron"
 			},
-			"F": { type: "item", code: "game:metallamellae-lead", quantity: 12
+			"F": { type: "item", code: "game:metalplate-lead", quantity: 2
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},

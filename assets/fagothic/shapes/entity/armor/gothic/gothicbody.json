@@ -10,8 +10,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"gothicbody": "armor/entity/gothic_{metalbody}",
-			"textile": "game:block/cloth/linen/{textile}"
+			"gothicbody": "armor/entity/gothic_steel",
+			"textile": "game:block/cloth/linen/red"
 	},
 	"elements": [
 		{

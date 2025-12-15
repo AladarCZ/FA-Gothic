@@ -10,8 +10,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"gothiclegs": "armor/entity/gothic_{metallegs}",
-			"line": "block/lines/line{line}"
+			"gothiclegs": "armor/entity/gothic_steel",
+			"line": "block/lines/linered"
 	},
 	"elements": [
 		{

@@ -1,0 +1,28 @@
+[
+	{
+		ingredientPattern: "A",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-gothic-schematic"
+			}
+		},
+		width: 1,
+		height: 1,
+		name: "Roll Scroll",
+		output: { type: "item", code: "fa-gothic-rolled-schematic"
+		}
+	},
+	{
+		ingredientPattern: "A",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-gothic-rolled-schematic"
+			}
+		},
+		width: 1,
+		height: 1,
+		name: "Roll Scroll",
+		output: { type: "item", code: "fa-gothic-schematic"
+		}
+	},
+]
