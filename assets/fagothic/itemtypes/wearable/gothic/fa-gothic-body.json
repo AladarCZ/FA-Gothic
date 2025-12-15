@@ -27,6 +27,9 @@
 		"wearableAttachment": true,
 		"clothescategoryByType": {
 			"*": "armorbody",
+			},
+		"footStepSoundByType": {
+			"fa-gothic-body-*": "game:wearable/plate*",
 		},
 		"defaultProtLoss": {
 			perTierRelativeProtectionLoss: [0.03, 0.15],
