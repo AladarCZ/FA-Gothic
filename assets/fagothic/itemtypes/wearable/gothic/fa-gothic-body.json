@@ -4,30 +4,54 @@
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
 		{ "code": "metalbody",  "states": ["iron", "meteoriciron", "steel"]},
-		{ "code": "textile",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain"]},
+		{ "code": "textile",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
 	"allowedVariants": [
 		"fa-gothic-body-*"
 	],
 	"shapeByType": 
 	{
+		"*bear*": { "base": "entity/armor/gothic/gothicbearbody" },
 		"*": { "base": "entity/armor/gothic/gothicbody" }
 	},
 	"texturesByType": {
-		"*": { 
+		"*bear*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"gothicbody": { "base": "armor/entity/gothic_{metalbody}" },
+			"textile": { "base": "game:entity/humanoid/serapharmor/hide/bear/{textile}" }
+				},
+		"*-iron*none*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"gothicbody": { "base": "armor/entity/gothic_{metalbody}" },
+			"textile": { "base": "block/textiles/textile{textile}" }
+				},
+		"*-iron*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"gothicbody": { "base": "armor/entity/gothic_{metalbody}" },
 			"textile": { "base": "game:block/cloth/linen/{textile}" }
+				},
+		"*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"gothicbody": { "base": "armor/entity/gothic_{metalbody}" },
+			"textile": { "base": "block/textiles/textile{textile}" }
 				}
 	},
 	"storageFlags": 128,
 	"maxstacksize": 4,
 	"attributes": {
+		"handbook": { 
+			"groupBy":["fa-gothic-body-{metalbody}-*"]
+		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
 		"clothescategoryByType": {
 			"*": "armorbody",
 			},
+		"warmthByType": {
+			"*-bear-black": 1,
+			"*-bear-brown": 1,
+			"*-bear-polar": 1.5
+		},
 		"footStepSoundByType": {
 			"fa-gothic-body-*": "game:wearable/plate*",
 		},
@@ -38,31 +62,38 @@
 		"protectionModifiersByType": {
 			"*-steel-*": {
 				relativeProtection: 0.97,
-				flatDamageReduction: 1.8,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron-*": {
 				relativeProtection: 0.962,
-				flatDamageReduction: 1.72,
+				flatDamageReduction: 2.4,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-*": {
 				relativeProtection: 0.96,
-				flatDamageReduction: 1.7,
+				flatDamageReduction: 2.35,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 		},
 		"statModifiersByType": {
-			"*": {
+			"*bear*": {
 				rangedWeaponsAcc: -0.10,
 				rangedWeaponsSpeed: -0.20,
-				walkSpeed: -0.10,
+				walkSpeed: -0.11,
 				healingeffectivness: -0.26,
 				hungerrate: 0.15
 			},
+			"*": {
+				rangedWeaponsAcc: -0.10,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.09,
+				healingeffectivness: -0.26,
+				hungerrate: 0.15
+			}
 		}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorygothic": ["*"] },

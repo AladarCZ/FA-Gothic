@@ -8,41 +8,75 @@
       {
         "name": "CombatOverhaul:Armor",
         "propertiesByType": {
+          "fa-gothic-head-*-steel-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
+            }
+          },
           "fa-gothic-head-*-steel-*": {
             "Layers": ["Outer"],
             "Zones": ["Head", "Neck", "Face"],
             "Resists": {
-              "PiercingAttack": 7,
+              "PiercingAttack": 9,
               "SlashingAttack": 7,
-              "BluntAttack": 6
+              "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
               "walkspeed": 0,
               "manipulationSpeed": 0,
-              "steadyAim": -0.15,
-              "healingeffectivness": -0.09,
-              "hungerrate": 0.15
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
+            }
+          },
+          "fa-gothic-head-*-*iron-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 6,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
             }
           },
           "fa-gothic-head-*-*iron-*": {
             "Layers": ["Outer"],
             "Zones": ["Head", "Neck", "Face"],
             "Resists": {
-              "PiercingAttack": 6,
+              "PiercingAttack": 8,
               "SlashingAttack": 6,
-              "BluntAttack": 5
+              "BluntAttack": 6
             },
             "FlatReduction": {},
             "PlayerStats": {
               "walkspeed": 0,
               "manipulationSpeed": 0,
-              "steadyAim": -0.15,
-              "healingeffectivness": -0.09,
-              "hungerrate": 0.15
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
             }
           }
-        },
+        }
       }
     ]
   },

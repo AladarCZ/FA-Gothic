@@ -5,35 +5,58 @@
 	"variantgroups": [
 		{ "code": "style",  "states": ["sallet", "salletwreath", "salletwing"]},
 		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
-		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
+		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
+	],
+	"behaviors": [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.3, z2: 1 } } }
 	],
 	"skipVariants": [
 		"*wreath*none",
-		"*wing*none"
+		"*wreath*bear-black",
+		"*wreath*bear-brown",
+		"*wreath*bear-polar",
+		"*wing*none",
+		"*wing*bear-black",
+		"*wing*bear-brown",
+		"*wing*bear-polar",
 	],
 	"allowedVariants": [
 		"*"
 	],
 	"shapeByType": 
 	{
+		"fa-gothic-head-sallet-*bear*": { "base": "entity/armor/gothic/gothicsalletbearhead" },
 		"fa-gothic-head-sallet-*": { "base": "entity/armor/gothic/gothicsallethead" },
 		"fa-gothic-head-salletwreath-*": { "base": "entity/armor/gothic/gothicsalletwreathhead" },
 		"fa-gothic-head-salletwing-*": { "base": "entity/armor/gothic/gothicsalletwingedhead" }
 	},
 	"texturesByType": {
+		"fa-gothic-head-sallet-*bear*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"gothichead": { "base": "armor/entity/gothic_{metalhead}" },
+			"plume": { "base": "game:entity/humanoid/serapharmor/hide/bear/{plume}" }
+				},
 		"fa-gothic-head-sallet*-*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"gothichead": { "base": "armor/entity/gothic_{metalhead}" },
 			"plume": { "base": "block/plume/plume{plume}" }
-				},
+				}
 	},
 	"storageFlags": 128,
 	"maxstacksize": 4,
 	"attributes": {
+		"handbook": { 
+			"groupBy":["fa-gothic-head-{style}-{metalhead}-*"]
+		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
 		"clothescategoryByType": {
 			"*": "armorhead",
+		},
+		"warmthByType": {
+			"*-bear-black": 1,
+			"*-bear-brown": 1,
+			"*-bear-polar": 1.5
 		},
 		"disableElementsByType": {
 			"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
@@ -45,39 +68,51 @@
 		"protectionModifiersByType": {
 			"*-steel-*": {
 				relativeProtection: 0.97,
-				flatDamageReduction: 1.8,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron-*": {
 				relativeProtection: 0.962,
-				flatDamageReduction: 1.72,
+				flatDamageReduction: 2.4,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-*": {
 				relativeProtection: 0.96,
-				flatDamageReduction: 1.7,
+				flatDamageReduction: 2.35,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 		},
 		"statModifiersByType": {
-			"*": {
+			"*bear*": {
 				rangedWeaponsAcc: -0.10,
 				rangedWeaponsSpeed: -0.20,
-				walkSpeed: -0.10,
+				walkSpeed: -0.11,
 				healingeffectivness: -0.26,
 				hungerrate: 0.15
 			},
-		}
+			"*": {
+				rangedWeaponsAcc: -0.10,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.09,
+				healingeffectivness: -0.26,
+				hungerrate: 0.15
+			}
+		},
+    	"groundStorageTransform": {
+      		translation: { x: -1.7, y: -1.31, z: 1.45 },
+      		rotation: { x: 0, y: 39, z: -11 },
+      		origin: { x: 0.5, y: -10, z: 0.5 }
+    	}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorygothic": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
 		"*-iron-*": 2700,
 		"*-meteoriciron-*": 3300,
-		"*-steel-*": 6000,
+		"*-steel-*": 6000
 	},
 	"fpHandTransformByType": {
 		"*": {

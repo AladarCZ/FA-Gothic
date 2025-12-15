@@ -8,38 +8,72 @@
       {
         "name": "CombatOverhaul:Armor",
         "propertiesByType": {
+          "fa-gothic-body-steel-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.15,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
+            }
+          },
           "fa-gothic-body-steel-*": {
             "Layers": ["Outer"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 7,
+              "PiercingAttack": 9,
               "SlashingAttack": 7,
-              "BluntAttack": 6
+              "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
               "walkspeed": -0.03,
-              "manipulationSpeed": -0.13,
-              "steadyAim": -0.20,
-              "healingeffectivness": -0.09,
-              "hungerrate": 0.15
+              "manipulationSpeed": -0.15,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
+            }
+          },
+          "fa-gothic-body-*iron-*bear*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 6,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.15,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
             }
           },
           "fa-gothic-body-*iron-*": {
             "Layers": ["Outer"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 6,
+              "PiercingAttack": 8,
               "SlashingAttack": 6,
-              "BluntAttack": 5
+              "BluntAttack": 6
             },
             "FlatReduction": {},
             "PlayerStats": {
               "walkspeed": -0.03,
-              "manipulationSpeed": -0.13,
-              "steadyAim": -0.20,
-              "healingeffectivness": -0.09,
-              "hungerrate": 0.15
+              "manipulationSpeed": -0.15,
+              "steadyAim": -0.30,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.10
             }
           }
         }

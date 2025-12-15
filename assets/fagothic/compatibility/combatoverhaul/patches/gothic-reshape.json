@@ -4,7 +4,8 @@
 		"op": "replace",
 		"path": "/shapeByType",
 		"value": {
-		"*": { "base": "fagothic:entity/armor/gothic_co/gothicbody_co" },
+		"*bear*": { "base": "entity/armor/gothic_co/gothicbearbody_co" },
+		"*": { "base": "entity/armor/gothic_co/gothicbody_co" }
 				}
 	},
 	{
@@ -12,7 +13,8 @@
 		"op": "replace",
 		"path": "/shapeByType",
 		"value": {
-		"*": { "base": "fagothic:entity/armor/gothic_co/gothiclegs_co" },
+		"*bear*": { "base": "entity/armor/gothic_co/gothicbearlegs_co" },
+		"*": { "base": "entity/armor/gothic_co/gothiclegs_co" }
 				}
 	}
 ]

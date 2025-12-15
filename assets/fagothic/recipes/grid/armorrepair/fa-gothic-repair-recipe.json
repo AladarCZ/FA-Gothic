@@ -17,7 +17,10 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-steel"
@@ -52,7 +55,10 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-meteoriciron"
@@ -86,7 +92,11 @@
 					"brown",
 					"gray",
 					"black",
-					"none"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-iron"
@@ -190,6 +200,7 @@
 					"brown",
 					"gray",
 					"black",
+					"white",
 					"none"
 				]
 			},
@@ -294,6 +305,7 @@
 					"brown",
 					"gray",
 					"black",
+					"white",
 					"none"
 				]
 			},
@@ -328,7 +340,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-steel"
@@ -362,7 +378,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-meteoriciron"
@@ -396,7 +416,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-iron"
@@ -430,7 +454,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-steel"
@@ -464,7 +492,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-meteoriciron"
@@ -498,7 +530,11 @@
 					"brown",
 					"gray",
 					"black",
-					"white"
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
 			"P": { type: "item", code: "game:metalplate-iron"
