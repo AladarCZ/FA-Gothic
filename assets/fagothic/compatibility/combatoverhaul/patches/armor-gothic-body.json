@@ -18,7 +18,7 @@
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.01,
+              "walkspeed": -0.03,
               "manipulationSpeed": -0.13,
               "steadyAim": -0.20,
               "healingeffectivness": -0.09,
@@ -35,7 +35,7 @@
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.01,
+              "walkspeed": -0.03,
               "manipulationSpeed": -0.13,
               "steadyAim": -0.20,
               "healingeffectivness": -0.09,
@@ -52,9 +52,9 @@
     "path": "/durabilityByType",
     "dependsOn": [{ "modId": "combatoverhaul" }],
     "value": {
-        "fa-gothic-body-steel-*": 32000,
-        "fa-gothic-body-meteoriciron-*": 15800,
-        "fa-gothic-body-iron-*": 12200
+        "fa-gothic-body-steel-*": 35000,
+        "fa-gothic-body-meteoriciron-*": 18000,
+        "fa-gothic-body-iron-*": 15000
     }
   },
   {

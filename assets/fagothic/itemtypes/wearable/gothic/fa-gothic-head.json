@@ -75,9 +75,9 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorygothic": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*-iron-*": 1900,
-		"*-meteoriciron-*": 2500,
-		"*-steel-*": 5200,
+		"*-iron-*": 2700,
+		"*-meteoriciron-*": 3300,
+		"*-steel-*": 6000,
 	},
 	"fpHandTransformByType": {
 		"*": {

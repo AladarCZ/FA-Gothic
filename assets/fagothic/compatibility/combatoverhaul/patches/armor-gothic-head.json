@@ -52,9 +52,9 @@
     "path": "/durabilityByType",
     "dependsOn": [{ "modId": "combatoverhaul" }],
     "value": {
-        "fa-gothic-head-*-steel-*": 10000,
-        "fa-gothic-head-*-meteoriciron-*": 5000,
-        "fa-gothic-head-*-iron-*": 4000
+        "fa-gothic-head-*-steel-*": 13000,
+        "fa-gothic-head-*-meteoriciron-*": 7500,
+        "fa-gothic-head-*-iron-*": 6200
     }
   },
   {
