@@ -10,6 +10,8 @@
 	"textureSizes": {
 	},
 	"textures": {
+			"gothichead": "armor/entity/gothic_{metalhead}",
+			"plume": "block/plume/plume{plume}" 
 	},
 	"elements": [
 		{

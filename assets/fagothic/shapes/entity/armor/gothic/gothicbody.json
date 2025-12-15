@@ -8,9 +8,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"gothicbody": [64,64]
 	},
 	"textures": {
+			"gothicbody": "armor/entity/gothic_{metalbody}",
+			"textile": "game:block/cloth/linen/{textile}"
 	},
 	"elements": [
 		{

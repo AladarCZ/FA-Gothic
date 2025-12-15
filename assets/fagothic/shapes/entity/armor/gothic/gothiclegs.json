@@ -8,10 +8,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"gothiclegs": [64,64],
-		"line": [64,64]
 	},
 	"textures": {
+			"gothiclegs": "armor/entity/gothic_{metallegs}",
+			"line": "block/lines/line{line}"
 	},
 	"elements": [
 		{
