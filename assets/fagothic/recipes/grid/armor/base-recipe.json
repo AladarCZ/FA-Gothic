@@ -10,13 +10,13 @@
 		"copyAttributesFrom": "A",
 		"width": 3,
 		"height": 3,
-		"name": "gothic Armet Initial",
+		"name": "gothic sallet Initial",
 		"output": {
 			"type": "item",
 			"code": "fagothic:head",
 			"attributes": {
 				"types": {
-					"formhead": "armet",
+					"formhead": "sallet",
 					"basehead": "{metal}",
 					"coverhead": "none",
 					"striphead": "none",
