@@ -1,0 +1,27 @@
+{
+	"collectibles": [
+		"fagothic-sallet-iron", 
+		"fagothic-sallet-meteoriciron", 
+		"fagothic-sallet-steel", 
+		"fagothic-sallet-no-plating", 
+		"fagothic-sallet-no-trim", 
+		"fagothic-sallet-no-decoration",
+
+		"fagothic-guardbody-iron", 
+		"fagothic-guardbody-meteoriciron", 
+		"fagothic-guardbody-steel", 
+		"fagothic-guardbody-no-plating", 
+		"fagothic-guardbody-no-trim", 
+		"fagothic-guardbody-no-decoration",
+
+
+
+		"fagothic-guardlegs-iron", 
+		"fagothic-guardlegs-meteoriciron", 
+		"fagothic-guardlegs-steel", 
+		"fagothic-guardlegs-no-plating", 
+		"fagothic-guardlegs-no-trim", 
+		"fagothic-guardlegs-no-decoration"
+	
+	]
+}

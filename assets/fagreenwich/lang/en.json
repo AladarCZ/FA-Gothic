@@ -1,0 +1,14 @@
+{
+	"fagothic:item-head": "Gothic Sallet",
+	"fagothic:item-body": "Gothic Chestplate",
+	"fagothic:item-legs": "Gothic Legplate",
+
+	"game:formhead-Sallet": "Sallet",
+
+	"game:formbody-guardbody": "Guard Chestplate",
+
+	"game:formlegs-guardlegs": "Guard Chestplate",
+
+	"fagothic:item-fa-gothic-rolled-schematic": "Gothic style (schematic rolled)",
+	"fagothic:item-fa-gothic-schematic": "Gothic style (schematic)"
+}
