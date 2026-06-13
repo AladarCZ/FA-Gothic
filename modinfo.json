@@ -1,8 +1,12 @@
 {
   "type": "content",
-  "modid": "fagreenwich",
-  "name": "Forgotten Armory Greenwich",
+  "modid": "fagothic",
+  "name": "Forgotten Armory Gothic",
   "authors": ["AladarCZ"],
-  "description": "Mod adding multiple iron and beyond plate armor variations inspired by Greenwich style",
-  "version": "2.0.0"
+  "description": "Mod adding multiple iron and beyond plate armor variations inspired by Gothic style",
+  "version": "2.0.0",
+  "dependencies": {
+    "facore": "1.0.0",
+    "attributerenderinglibrary": "3.2.0"
+  }
 }

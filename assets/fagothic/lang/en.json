@@ -1,14 +1,20 @@
 {
-	"fagothic:item-head": "Gothic Sallet",
-	"fagothic:item-body": "Gothic Chestplate",
-	"fagothic:item-legs": "Gothic Legplate",
+	"game:tabname-gothicfaheads": "Gothic Armor Heads",
+	"game:tabname-gothicfabody": "Gothic Armor Body",
+	"game:tabname-gothicfalegs": "Gothic Armor Legs",
 
-	"game:formhead-Sallet": "Sallet",
+	"fagothic:item-fa-gothic-schematic": "Gothic armor schematic",
+	"fagothic:item-fa-gothic-rolled-schematic": "Rolled Gothic armor schematic",
 
-	"game:formbody-guardbody": "Guard Chestplate",
+	"fagothic:item-platehead-sallet-iron": "Gothic Iron Sallet",
+	"fagothic:item-platehead-sallet-meteoriciron": "Gothic Meteoric Iron Sallet",
+	"fagothic:item-platehead-sallet-steel": "Gothic Steel Sallet",
 
-	"game:formlegs-guardlegs": "Guard Chestplate",
+	"fagothic:item-platebody-noble-iron": "Gothic Noble Iron Plate",
+	"fagothic:item-platebody-noble-meteoriciron": "Gothic Noble Meteoric Plate",
+	"fagothic:item-platebody-noble-steel": "Gothic Noble Steel Plate",
 
-	"fagothic:item-fa-gothic-rolled-schematic": "Gothic style (schematic rolled)",
-	"fagothic:item-fa-gothic-schematic": "Gothic style (schematic)"
+	"fagothic:item-platelegs-noble-iron": "Gothic Noble Iron Legplates",
+	"fagothic:item-platelegs-noble-meteoriciron": "Gothic Noble Meteoric Legplates",
+	"fagothic:item-platelegs-noble-steel": "Gothic Noble Steel Legplates"
 }

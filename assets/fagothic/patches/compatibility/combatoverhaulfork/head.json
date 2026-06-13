@@ -1,0 +1,156 @@
+[
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "value": {
+      "*-iron": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platehead-sallet-iron*": {
+              "Layers": ["Outer"],
+              "Zones": ["Head", "Neck", "Face"],
+              "Resists": {
+                "PiercingAttack": 8,
+                "SlashingAttack": 6,
+                "BluntAttack": 6
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": -0.10,
+                "healingeffectivness": -0.07,
+                "hungerrate": 0.10
+              }
+            }
+          }
+        }
+      ],
+      "*-meteoriciron": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platehead-sallet-meteoriciron*": {
+              "Layers": ["Outer"],
+              "Zones": ["Head", "Neck", "Face"],
+              "Resists": {
+                "PiercingAttack": 8,
+                "SlashingAttack": 6,
+                "BluntAttack": 6
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": -0.10,
+                "healingeffectivness": -0.07,
+                "hungerrate": 0.10
+              }
+            }
+          }
+        }
+      ],
+      "*-steel": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platehead-sallet-steel*": {
+              "Layers": ["Outer"],
+              "Zones": ["Head", "Neck", "Face"],
+              "Resists": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": -0.10,
+                "healingeffectivness": -0.07,
+                "hungerrate": 0.10
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "value": {
+        "platehead-sallet-steel*": 13000,
+        "platehead-sallet-meteoriciron*": 7500,
+        "platehead-sallet-iron*": 6200
+    }
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-iron/2/properties/protectionModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-iron/2/properties/statModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-meteoriciron/2/properties/protectionModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-meteoriciron/2/properties/statModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-steel/2/properties/protectionModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-steel/2/properties/statModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "addmerge",
+    "path": "/class",
+    "value": "Item"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "clothesCategory": "armorhead"
+    }
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platehead",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "platehead-*": 8 }
+  }
+
+]

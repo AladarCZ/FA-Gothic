@@ -1,0 +1,156 @@
+[
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "value": {
+      "*-iron": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platelegs-noble-iron*": {
+              "Layers": ["Outer"],
+              "Zones": ["Legs", "Feet"],
+              "Resists": {
+                "PiercingAttack": 8,
+                "SlashingAttack": 6,
+                "BluntAttack": 6
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": -0.10,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.04,
+                "hungerrate": 0.06
+              }
+            }
+          }
+        }
+      ],
+      "*-meteoriciron": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platelegs-noble-meteoriciron*": {
+              "Layers": ["Outer"],
+              "Zones": ["Legs", "Feet"],
+              "Resists": {
+                "PiercingAttack": 8,
+                "SlashingAttack": 6,
+                "BluntAttack": 6
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": -0.10,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.04,
+                "hungerrate": 0.06
+              }
+            }
+          }
+        }
+      ],
+      "*-steel": [
+        { "name": "CombatOverhaul:WearableArmor" },
+        {
+          "name": "CombatOverhaul:Armor",
+          "propertiesByType": {
+            "platelegs-noble-steel*": {
+              "Layers": ["Outer"],
+              "Zones": ["Legs", "Feet"],
+              "Resists": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              },
+              "FlatReduction": {},
+              "PlayerStats": {
+                "walkspeed": -0.10,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.04,
+                "hungerrate": 0.06
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "value": {
+        "platelegs-noble-steel*": 25000,
+        "platelegs-noble-meteoriciron*": 13000,
+        "platelegs-noble-iron*": 10500
+    }
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-iron/1/properties/protectionModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-iron/1/properties/statModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-meteoriciron/1/properties/protectionModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-meteoriciron/1/properties/statModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-steel/1/properties/protectionModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "remove",
+    "path": "/behaviorsByType/*-steel/1/properties/statModifiers"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "addmerge",
+    "path": "/class",
+    "value": "Item"
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "clothesCategory": "armorlegs"
+    }
+  },
+  {
+    "file": "fagothic:itemtypes/wearable/gothic/platelegs",
+    "dependsOn": [{ "modId": "combatoverhaulfork" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "platelegs-*": 8 }
+  }
+
+]
